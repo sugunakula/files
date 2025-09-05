@@ -1,0 +1,168 @@
+/* JSLoanTypes.css - Custom styles migrated from Tailwind classes in JSLoanTypes.jsx */
+
+.loan-types-section {
+  /* padding: 5rem 0; */
+  background: #f3f4f6;
+  width: 100%;
+}
+.loan-types-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.loan-types-title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 0rem;
+}
+.loan-types-desc {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto 0.3rem auto;
+}
+.loan-types-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: stretch; /* Ensure all cards stretch to same height */
+}
+@media (max-width: 900px) {
+  .loan-types-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .loan-types-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+.loan-card {
+  min-height: 380px; /* Set a fixed minimum height for all cards */
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  border:10px solid black;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+  /* border: none; */
+}
+.loan-card:hover {
+  box-shadow: 0 4px 16px rgba(30,64,175,0.15);
+  transform: translateY(-2px) scale(1.02);
+}
+.loan-card-header {
+  text-align: center;
+  padding-bottom: 0.25rem; 
+  display: flex;
+  flex-direction: column;
+}
+.loan-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+  border-radius: 50%;
+  margin: 0 auto 0.25rem auto;
+  transition: transform 0.2s;
+}
+.loan-card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.15rem;
+}
+.loan-card-desc {
+  color: #64748b;
+  font-size: 0.5rem;
+}
+.loan-card-content {
+  padding: 0 0.75rem 0.75rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.loan-rate-row {
+  text-align: center;
+  /* margin-bottom: 0.5rem; */
+}
+.loan-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1e40af;
+}
+.loan-rate-apr {
+  color: #64748b;
+  font-size: 1rem;
+  /* margin-left: 0.5rem; */
+}
+.loan-rate-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+.loan-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.loan-feature-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #1e293b;
+  font-size: 0.65rem;
+}
+.loan-apply-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.15);
+  transition: opacity 0.2s, transform 0.1s;
+}
+.loan-apply-btn:hover {
+  opacity: 0.9;
+  transform: scale(0.98);
+}
+.loan-types-footer {
+  text-align: center;
+  margin-top: 3rem;
+  color: #64748b;
+  font-size: 0.95rem;
+}
+@media (max-width: 900px) {
+  .loan-card {
+    min-height: 320px;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .loan-card {
+    min-height: 240px;
+    padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  }
+}

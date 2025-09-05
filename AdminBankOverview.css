@@ -1,0 +1,83 @@
+/* Styles for AdminBankOverview component */
+.admin-bank-section {
+  background: #f8fafc;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(30,64,175,0.08);
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  max-width: 900px;
+}
+.bank-stats-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.bank-stat-card {
+  background: linear-gradient(120deg, #1e40af 0%, #3b82f6 100%);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(30,64,175,0.07);
+  padding: 1.5rem 1.25rem;
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bank-stat-card .stat-icon {
+  margin-bottom: 0.5rem;
+}
+.bank-stat-card .stat-title {
+  font-size: 1.1rem;
+  color: #f1f4f9;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.bank-stat-card .stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #090909;
+  margin-bottom: 0.5rem;
+}
+.bank-stat-card .stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+  color: #02060d;
+}
+.bank-stat-card .stat-list li {
+  margin-bottom: 0.25rem;
+}
+.stat-action-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(30,64,175,0.08);
+  transition: background 0.2s;
+}
+.stat-action-btn:hover {
+  background: #1e40af;
+}
+.bank-about {
+  background: #e0e7ff;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.5rem;
+}
+.bank-about h3 {
+  color: #1e40af;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.bank-about p {
+  color: #334155;
+  font-size: 1rem;
+  margin: 0;
+}

@@ -1,0 +1,139 @@
+/*  */
+
+/* Footer.css - Professional, modern multi-column layout for new-footer */
+
+.new-footer {
+  background: rgb(31, 31, 171);
+  color: #f3f6fa;
+  padding: 0;
+  margin-top: 40px;
+  font-size: 16px;
+  box-shadow: 0 -2px 16px rgba(35,42,54,0.08);
+}
+
+.new-footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px 24px 24px;
+}
+
+.footer-brand {
+  flex: 1 1 260px;
+  min-width: 220px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 12px;
+  background: transparent;
+}
+.brand-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffd700;
+}
+.brand-desc {
+  font-size: 1rem;
+  margin-bottom: 18px;
+  color: #cbd5e1;
+}
+
+.footer-columns {
+  display: flex;
+  flex: 3 1 600px;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.footer-column {
+  min-width: 160px;
+  flex: 1 1 160px;
+  margin-bottom: 24px;
+}
+.footer-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #ffd700;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-column li {
+  margin-bottom: 8px;
+}
+.footer-column a {
+  color: #f3f6fa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-column a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0 8px 0;
+}
+.social-link svg {
+  width: 24px;
+  height: 24px;
+  color: #ffd700;
+  transition: color 0.2s;
+}
+.social-link:hover svg {
+  color: #f3f6fa;
+}
+.footer-address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin-top: 8px;
+}
+
+.new-footer-bottom {
+  border-top: 1px solid #38404e;
+  padding: 18px 24px;
+  text-align: center;
+  background: #232a36;
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+.new-footer-bottom a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 6px;
+}
+.new-footer-bottom a:hover {
+  color: #f3f6fa;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .new-footer-main {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 32px 12px 12px 12px;
+  }
+  .footer-columns {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .footer-brand {
+    margin-bottom: 24px;
+    margin-right: 0;
+  }
+}

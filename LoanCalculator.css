@@ -1,0 +1,73 @@
+/* LoanCalculator.css - migrated from Tailwind classes in LoanCalculator.jsx */
+.loan-calculator {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+  background: #fff;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.loan-calculator h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.loan-calculator label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+.loan-calculator select,
+.loan-calculator input[type="number"] {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+}
+.loan-calculator .loan-calculator-btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.2s;
+}
+.loan-calculator .loan-calculator-btn:hover {
+  background: #1e40af;
+}
+.loan-calculator .loan-calculator-clear-btn {
+  background: #e5e7eb;
+  color: #374151;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.loan-calculator .loan-calculator-clear-btn:hover {
+  background: #d1d5db;
+}
+.loan-calculator .loan-calculator-result {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #f9fafb;
+}
+.loan-calculator .loan-calculator-error {
+  color: #ef4444;
+  font-weight: 500;
+}
+.loan-calculator .loan-calculator-label {
+  font-weight: 600;
+}
