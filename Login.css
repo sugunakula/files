@@ -1,0 +1,95 @@
+/* Login.css - migrated from Tailwind classes in Login.jsx */
+.login-root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(30,64,175,0.12);
+  border-radius: 1rem;
+  background: #fff;
+}
+.login-header {
+  text-align: center;
+}
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.login-description {
+  color: #64748b;
+  font-size: 1rem;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.login-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.login-form label {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.login-form .input-wrapper {
+  position: relative;
+}
+.login-form input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: #fff;
+}
+.login-form .icon {
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.login-form .submit-btn {
+  width: 100%;
+  background: linear-gradient(90deg, #2563eb 0%, #1e40af 100%);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.15);
+  transition: opacity 0.2s;
+  margin-top: 0.5rem;
+}
+.login-form .submit-btn:hover {
+  opacity: 0.9;
+}
+.login-form .forgot-link {
+  text-align: right;
+  font-size: 0.95rem;
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login-form .register-link {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+.login-form .register-link a {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}

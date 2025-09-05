@@ -1,0 +1,267 @@
+/* PersonalLoans.css - Professional styles for PersonalLoans.jsx */
+
+.personal-loans-bg {
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.personal-loans-header {
+  background: linear-gradient(90deg, #2563eb 0%, #1e3a8a 100%);
+  padding: 2.5rem 0 2rem 0;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.08);
+}
+
+.personal-loans-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(90deg, #2563eb 0%, #1e3a8a 100%);
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(30,58,138,0.12);
+}
+
+.icon-creditcard {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.header-subtitle {
+  font-size: 1.25rem;
+  color: #e0e7ef;
+}
+
+.personal-loans-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.08);
+  padding: 2rem 1.5rem;
+  margin-bottom: 0;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 24px rgba(30,58,138,0.16);
+}
+
+.card-header {
+  margin-bottom: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #1e293b;
+}
+
+.icon-filetext, .icon-check, .icon-calculator, .icon-arrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #2563eb;
+}
+
+.card-content {
+  margin-top: 0.5rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.info-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #64748b;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.info-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.feature-text {
+  font-size: 1rem;
+  color: #334155;
+}
+
+.purposes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.purpose-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.purpose-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+.purpose-text {
+  font-size: 1rem;
+  color: #334155;
+}
+
+.calculator-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.btn-full {
+  width: 100%;
+  background: linear-gradient(90deg, #2563eb 0%, #1e3a8a 100%);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-full:hover {
+  background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%);
+}
+
+.calculation-results {
+  margin-top: 1.5rem;
+  background: #f1f5f9;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+
+.results-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.results-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.results-label {
+  color: #64748b;
+}
+
+.results-value {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.apply-description {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.application-form {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .personal-loans-container {
+    padding: 1rem 0.5rem;
+  }
+  .header-title {
+    font-size: 2rem;
+  }
+  .personal-loans-section {
+    gap: 1.5rem;
+  }
+  .info-grid, .purposes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .personal-loans-header {
+    padding: 1.5rem 0 1rem 0;
+  }
+  .card {
+    padding: 1rem 0.5rem;
+  }
+}

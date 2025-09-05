@@ -1,0 +1,93 @@
+/* HomeLoans.css - Professional styles for HomeLoans.jsx */
+
+.home-loans-bg {
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.home-loans-header {
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+  padding: 2.5rem 0 2rem 0;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+}
+
+.home-loans-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.home-loans-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.home-loans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.home-loan-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(30,64,175,0.08);
+  border: 1px solid #e5e7eb;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.home-loan-card:hover {
+  box-shadow: 0 4px 24px rgba(30,64,175,0.16);
+  transform: translateY(-2px) scale(1.01);
+}
+.home-loan-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+.home-loan-card-desc {
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 1.2rem;
+}
+.home-loan-card-details {
+  font-size: 0.98rem;
+  color: #64748b;
+  margin-bottom: 1.2rem;
+}
+.home-loan-card-btn {
+  background: #1e40af;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: auto;
+}
+.home-loan-card-btn:hover {
+  background: #3b82f6;
+}
+@media (max-width: 700px) {
+  .home-loans-container {
+    padding: 1rem 0.5rem;
+  }
+  .home-loans-grid {
+    gap: 1rem;
+  }
+  .home-loan-card {
+    padding: 1.2rem 0.7rem;
+  }
+}

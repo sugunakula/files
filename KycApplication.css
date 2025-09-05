@@ -1,0 +1,363 @@
+.kyc-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.kyc-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.kyc-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.form-section h2 {
+  font-size: 1.25rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4A90E2;
+}
+
+.form-group input.error {
+  border-color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: #4A90E2;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #357ABD;
+}
+
+.btn-primary:disabled {
+  background: #9DC2E8;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: white;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}
+
+.btn-secondary:hover {
+  background: #f8fafc;
+}
+
+.kyc-app-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem 2.5rem;
+}
+
+.kyc-app-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2d3748;
+}
+
+.kyc-app-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.kyc-app-section {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.5rem 2rem;
+  transition: box-shadow 0.2s;
+  border-left: 6px solid #3182ce;
+}
+
+.kyc-app-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.kyc-app-section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.kyc-app-section-details {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 0.2rem 2rem;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.kyc-app-section-details h1 {
+  grid-column: 1 / -1;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.kyc-app-section-details h2 {
+  font-size: 1.05rem;
+  color: #2b6cb0;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  margin-top: 0.7rem;
+  grid-column: 1;
+}
+
+.kyc-app-section-details p {
+  color: #2d3748;
+  font-weight: 500;
+  background: #f7fafc;
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  grid-column: 2;
+}
+
+.kyc-app-section-details h2 {
+  font-size: 1.05rem;
+  color: #2b6cb0;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+  margin-top: 0.7rem;
+}
+
+.kyc-app-section-details p {
+  color: #2d3748;
+  font-weight: 500;
+  background: #f7fafc;
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.status-badge {
+  font-size: 0.95em;
+  font-weight: 500;
+  padding: 0.35em 0.8em;
+  border-radius: 12px;
+  letter-spacing: 0.02em;
+}
+
+.status-pending {
+  background: #fffbea;
+  color: #b7791f;
+  border: 1px solid #f6e05e;
+}
+
+.status-approved {
+  background: #e6fffa;
+  color: #2c7a7b;
+  border: 1px solid #38b2ac;
+}
+
+.status-rejected {
+  background: #ffeaea;
+  color: #c53030;
+  border: 1px solid #feb2b2;
+}
+
+.kyc-app-actions {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.kyc-app-btn {
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.kyc-app-btn.approve {
+  background: #38a169;
+  color: #fff;
+}
+
+.kyc-app-btn.approve:hover {
+  background: #2f855a;
+}
+
+.kyc-app-btn.reject {
+  background: #e53e3e;
+  color: #fff;
+}
+
+.kyc-app-btn.reject:hover {
+  background: #c53030;
+}
+
+.kyc-app-loading, .kyc-app-error, .kyc-app-empty {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #718096;
+  margin: 2rem 0;
+}
+
+.impressive-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.7rem 2rem;
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.kyc-app-detail-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.2rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  margin-bottom: 0.2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.kyc-app-detail-key {
+  font-weight: 600;
+  color: #2b6cb0;
+  min-width: 120px;
+}
+
+.kyc-app-detail-value {
+  color: #2d3748;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .kyc-container {
+    margin: 1rem auto;
+  }
+
+  .kyc-form {
+    padding: 1rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .form-actions button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .kyc-app-section {
+    padding: 1rem 0.5rem;
+  }
+
+  .kyc-app-section-details {
+    grid-template-columns: 1fr;
+    gap: 0.5rem 0;
+  }
+
+  .kyc-app-section-details h2, .kyc-app-section-details p {
+    grid-column: 1;
+  }
+
+  .kyc-app-section-details h2 {
+    min-width: 90px;
+  }
+
+  .impressive-details {
+    grid-template-columns: 1fr;
+    gap: 0.5rem 0;
+  }
+
+  .kyc-app-detail-key {
+    min-width: 90px;
+  }
+}

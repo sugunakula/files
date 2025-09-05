@@ -1,0 +1,240 @@
+/* BusinessLoans.css - Professional styles for BusinessLoans.jsx */
+
+.business-loans-bg {
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.business-loans-header {
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%);
+  padding: 2.5rem 0 2rem 0;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(6,95,70,0.08);
+}
+
+.business-loans-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #1e40af !important;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  background: transparent;
+}
+.icon-building {
+  width: 32px;
+  height: 32px;
+  color: #1e40af !important;
+}
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: #1e40af !important;
+}
+.header-subtitle {
+  font-size: 1.25rem;
+  color: #d1fae5;
+}
+.btn-back {
+  margin-bottom: 1rem;
+  color: #065f46;
+  background: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.icon-arrow {
+  margin-right: 0.5rem;
+}
+.business-loans-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.info-section, .calculator-section {
+  width: 100%;
+  min-width: 0;
+}
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+  padding: 1.5rem;
+}
+.card-header {
+  margin-bottom: 1rem;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.card-content {
+  font-size: 1rem;
+}
+.requirements-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.requirement-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e40af !important;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+.requirement-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #3b82f6 !important;
+}
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.icon-feature {
+  color: #3b82f6 !important;
+  width: 20px;
+  height: 20px;
+}
+.business-types-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+.business-type {
+  font-size: 0.95rem;
+  color: #1e40af !important;
+  font-weight: 500;
+  padding-left: 0.5rem;
+  position: relative;
+}
+.business-type:before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #3b82f6 !important;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.documents-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.documents-list li {
+  font-size: 0.95rem;
+  color: #1e40af !important;
+  margin-bottom: 0.4rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+.documents-list li:before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #3b82f6 !important;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form-group {
+  margin-bottom: 1.2rem;
+}
+.btn-calculate {
+  width: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%) !important;
+  color: #1e40af !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.calculation-result {
+  margin-top: 1.5rem;
+  background: #e6f4f1;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(30,64,175,0.08);
+}
+.result-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+.result-value {
+  font-weight: bold;
+  color: #3b82f6 !important;
+}
+.apply-description {
+  color: #1e40af !important;
+  margin-bottom: 1rem;
+}
+.btn-apply {
+  width: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #1e40af 100%) !important;
+  color: #1e40af !important;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0;
+  cursor: pointer;
+}
+.application-form {
+  margin-top: 1.5rem;
+}
+.btn-apply:hover,
+.btn-calculate:hover {
+  background: #2563eb !important;
+}
+@media (max-width: 900px) {
+  .business-loans-section {
+    flex-direction: column;
+  }
+  .info-section, .calculator-section {
+    min-width: 0;
+  }
+}

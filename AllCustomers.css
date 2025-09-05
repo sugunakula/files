@@ -1,0 +1,79 @@
+.all-customers-page {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+.all-customers-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.all-customers-section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(30,64,175,0.07);
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.all-customers-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.all-customers-section-title {
+  font-weight: 700;
+  color: #1e40af;
+  font-size: 1.1rem;
+}
+.all-customers-status-badge {
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 8px;
+  padding: 0.2rem 0.8rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-left: 1rem;
+}
+.all-customers-section-details {
+  margin-top: 0.5rem;
+}
+.all-customers-detail-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.all-customers-detail-key {
+  font-weight: bold;
+  color: #2563eb;
+  min-width: 120px;
+  display: inline-block;
+}
+.all-customers-detail-value {
+  color: #334155;
+  margin-left: 1rem;
+}
+.all-customers-back-btn {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(30,64,175,0.08);
+  transition: background 0.2s;
+}
+.all-customers-title {
+  text-align: center;
+  color: #1e40af;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.all-customers-empty {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.2rem;
+}
